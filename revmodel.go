@@ -62,6 +62,8 @@ func (rm *RevModel) Mute() {
 	}
 }
 
+// ProcessReplace processes a block of samples, replacing the contents
+// of outputL and outputR.
 func (rm *RevModel) ProcessReplace(inputL, inputR, outputL, outputR []float32, numSamples, skip int) {
 	for numSamples > 0 {
 		numSamples--
@@ -94,6 +96,8 @@ func (rm *RevModel) ProcessReplace(inputL, inputR, outputL, outputR []float32, n
 	}
 }
 
+// ProcessMix processes a block of samples, mixing the result with the
+// contents of outputL and outputR.
 func (rm *RevModel) ProcessMix(inputL, inputR, outputL, outputR []float32, numSamples, skip int) {
 	for numSamples > 0 {
 		numSamples--
