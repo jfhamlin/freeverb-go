@@ -1,5 +1,8 @@
 # freeverb-go
 
+![semver](https://img.shields.io/github/v/tag/jfhamlin/freeverb-go)
+[![Go Reference](https://pkg.go.dev/badge/github.com/jfhamlin/freeverb-go.svg)](https://pkg.go.dev/github.com/jfhamlin/freeverb-go)
+
 A Go implementation of the Freeverb reverberator.
 
 See readme.txt for the original Freeverb README.
